@@ -1,0 +1,16 @@
+PODS:
+  - SwiftCheck (0.12.0)
+
+DEPENDENCIES:
+  - SwiftCheck (~> 0.12.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftCheck
+
+SPEC CHECKSUMS:
+  SwiftCheck: d1dd04d955cc76620b0f84e087536bd059a11c24
+
+PODFILE CHECKSUM: a5f3942094edca02390acaf8fd46713d5487b3e4
+
+COCOAPODS: 1.7.1
