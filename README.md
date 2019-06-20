@@ -16,10 +16,7 @@ In order to build, run and access the code for the workshop, the first thing you
 ```
 git clone https://github.com/RLRG/SwiftAveiro_PropertyBasedTesting.git
 ```
-It is important to remark that I have used CocoaPods as the dependency manager of the project so that you will need to execute a ‘pod install’ command in the same path where the PodFile is located to download the dependencies (CocoaPods - version 1.7.2):
-```
-pod install
-```
+
 ### Running the tests
 Open `SwiftAveiroTheHotelBuffet.xcworkspace` with XCode 10.2. Then, run the tests by going to the menu "Product -> Test". The initial project just have a fake test. This will ensure that everything is working fine for you !
 
