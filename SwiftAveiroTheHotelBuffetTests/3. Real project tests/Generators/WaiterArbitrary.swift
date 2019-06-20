@@ -14,7 +14,7 @@ extension Waiter: Arbitrary {
     public static var arbitrary: Gen<Waiter> {
         return Gen<Waiter>.one(of: [
             Gen<Waiter>.pure(DefaultWaiters.Martina),
-            Gen<Waiter>.pure(DefaultWaiters.Martina)
+            Gen<Waiter>.pure(DefaultWaiters.Jack)
             ])
     }
 }
