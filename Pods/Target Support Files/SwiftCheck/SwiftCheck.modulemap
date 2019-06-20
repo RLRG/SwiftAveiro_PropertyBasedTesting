@@ -1,0 +1,6 @@
+framework module SwiftCheck {
+  umbrella header "SwiftCheck-umbrella.h"
+
+  export *
+  module * { export * }
+}
