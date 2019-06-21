@@ -3,6 +3,8 @@
 
 This is the repository that you need to checkout to follow the *"Bacallao Property-Based Testing"* workshop at SwiftAveiro 2019.
 
+If you would like to do this workshop in your own, you only need to checkout this repository and follow the guidelines you have in the README. You can also follow the PDF presentation added in this repository, where you can find the "passwords" to unlock the solutions.
+
 Sit down and enjoyyyy !!!!
 
 ## Getting ready !!
@@ -10,11 +12,18 @@ Sit down and enjoyyyy !!!!
 * Xcode 10.2
 * iOS 12.2 SDK
 * Swift 5
+* Cocoapods 1.7.2.
 * Kahoot - download app or have the website https://kahoot.it next to you ! We'll have a nice time at the end of the session for sure !
 ### Getting the code
 In order to build, run and access the code for the workshop, the first thing you have to do is to clone this repository:
 ```
 git clone https://github.com/RLRG/SwiftAveiro_PropertyBasedTesting.git
+```
+
+After that you need to run (Cocoapods 1.7.2 !!!! ):
+```
+pod deintegrate
+pod install --repo-update
 ```
 
 ### Running the tests
@@ -67,6 +76,7 @@ Here you go with the exercises (don't worry if you don't get them all, I'll prov
 
 
 Before going to the next section, I am going to give you a complete example solution so you can compare your results ! :)
+--> Unlock the dmg file "SwiftAveiroTheHotelBuffet_SolutionExercises.dmg" with the password "PropertyBasedTesting"
 
 ### Real Project: Bacallao Property-Based Testing (60')
 *Time for fun !* :fish:
@@ -82,6 +92,7 @@ This exercise is highly recommended to do it pairs (*pair programming!*) to shar
 --> What is the *code coverage* you have got at the end of the session ? While you are programming the tests, check this out !
 
 Before going to the next section, I am going to give you a complete example solution so you can compare your results ! :)
+--> Unlock the dmg file "SwiftAveiroTheHotelBuffet_CompleteSolution.dmg" with the password "SwiftAveiro2019"
 
 ### KAHOOT + SUM UP ! (15')
 *Time for the contest!*
